@@ -27,6 +27,8 @@
   "scripts": {
     "lint": "eslint --ext ts .",
     "lint:fix": "eslint --ext ts --fix .",
+    "build": "tsc",
+    "prepare": "tsc",
     "prepack": "tsc",
     "pretest": "tsc",
     "test": "NODE_OPTIONS=--enable-source-maps mocha --exit --recursive",
